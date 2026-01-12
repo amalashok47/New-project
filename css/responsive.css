@@ -1,0 +1,114 @@
+
+@media  (max-width: 1200px) { 
+    .product-section.pr3 {
+        width: 33.33%;
+    }
+    .dpr {
+        width: 66.67%;
+        gap: 25px;
+    }
+    .dpr1, .dpr2 {
+        width: 50%;
+    }
+    .main-banner {
+        background-position-x: -140px;
+    }
+    .main-menu ul li {
+        margin: 0 12px;
+    }
+}
+@media  (max-width: 991px) { 
+    .pr-flx.prj {
+        display: grid !important;
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    .main-banner {
+        background-position-x: -220px;
+    }
+    .right-content {
+        backdrop-filter: blur(5px);
+    }
+    .menu-icon {
+        display: grid;
+    }
+    .main-menu {
+        position: fixed;
+        width: 280px;
+        background: #fff;
+        top: 0;
+        left: -280px;
+        bottom: 0;
+        padding-top: 90px;
+        z-index: 1;
+        transition: .3s all;
+    }
+    .menu-close {
+        display: grid;
+    }
+    .main-menu ul li {
+        float: left;
+        width: 100%;
+        margin: 0;
+        padding: 5px 25px;
+    }
+    .main-menu.active {
+        left: 0;
+    }
+    .pr-flx {
+        display: block !important;
+    }
+    .product-section-grid.pr-g1, .product-section-grid.pr-g2 {
+        height: unset;
+        width: 50%;
+    }
+    .pr-bg {
+        height: 350px !important;
+    }
+    .product-section.pr3 {
+        display: flex !important;
+        gap: 25px;
+        width: 100%;
+    }
+    .dpr {
+        width: 100%;
+        margin-bottom: 45px;
+    }
+}
+@media  (max-width: 767px) { 
+    .main-banner {
+        background-position-x: -320px;
+    }
+    .right-content {
+        max-width: 100%;
+        margin: 20px 0;
+        padding: 25px;
+        backdrop-filter: blur(5px);
+        margin-top: 70%;
+    }
+    .footer-list h5 {
+        margin-bottom: 10px;
+        margin-top: 35px;
+    }
+}
+@media  (max-width: 575px) { 
+    .pr-flx.prj {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .dpr, .product-section.pr3 {
+        display: grid !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+        gap: 45px;
+    }
+    .dpr1, .dpr2, .product-section-grid.pr-g1, .product-section-grid.pr-g2 {
+        width: 100%;
+    }
+    .pr-bg {
+        background-size: cover;
+        background-position: bottom;
+    }
+    .pr-bg {
+        height: unset !important;
+        aspect-ratio: 1/1;
+    }
+}
