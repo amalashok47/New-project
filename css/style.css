@@ -365,3 +365,11 @@ button {
 .cls-line.cl2 {
     transform: rotate(-45deg);
 }
+.w-100.float-start.products-section {
+    background-image: url(../images/gradient1.png);
+    background-size: 100%;
+}
+.w-100.float-start.projets-section {
+    background-image: url(../images/gradient2.png);
+    background-size: 100%;
+}
